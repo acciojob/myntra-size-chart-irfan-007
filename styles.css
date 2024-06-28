@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+table{
+	border-collapse:collapse;
+	border:2px solid black;
+}
+tr:nth-child(odd){
+	background-color:gold;
+}
+thead{
+	color:red;
+	border:2px solid;
+}
